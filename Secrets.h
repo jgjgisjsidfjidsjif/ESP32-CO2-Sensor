@@ -3,14 +3,14 @@ const bool is_AP = false;
 const bool debug_Sensor = false;
 const bool discord_Integration = true;
 
-const char* username_OTA = "w.i.zhang";
-const char* password_OTA = "Lwz195";
+const char* username_OTA = "OTA_USERNAME";
+const char* password_OTA = "OTA_PASSWORD";
 
-const char* ssid = "SKC-MAC";
-const char* password = ">cuvXCXy+yPD58p?";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 //Discord Integration. Only works when is_AP is not true.
-const char* webhookUrl = "https://discord.com/api/webhooks/1123407102019383428/HP6gpLgDbWTuilm_--zjdMw0KInJu9cwRfkx0j7N8u4MNzK_YMQfRWwhtiZCUXH5wdeW";
+const char* webhookUrl = "DISCORD WEBHOOK URL";
 
 int max_safe = 1000;
 int max_caution = 4000;
