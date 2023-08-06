@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="10"> <!-- Refresh the page every 10 seconds -->
+    <title>System Settings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_row">
+            <div>
+                <h1>Status: </h1>
+            </div>
+
+            <div>
+                <h1>%STATUS%</h1>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="row">
+        <div>
+            <h3>Maximum Safe CO2 Threshold </h3>
+            <form action="/get-safe">
+                Enter in PPM: <input type="text" name="input_integer">
+                <input type="submit" value="Submit">
+            </form><br>
+        </div>
+
+        <div>
+            <h3>Maximum Cautionary CO2 Threshold</h3>
+            <form action="/get-caution">
+                Enter in PPM: <input type="text" name="input_integer">
+                <input type="submit" value="Submit">
+            </form><br>
+        </div>
+
+        <div>
+            <h3>Sensor Wait Interval</h3>
+            <form action="/get-wait">
+                Enter the time in Milliseconds: <input type="text" name="input_integer">
+                <input type="submit" value="Submit">
+            </form><br>
+        </div>
+    </div>
+    <footer>
+        <h4>ALPHA VERSION</h4>
+    </footer>
+</body>
+
+</html>
